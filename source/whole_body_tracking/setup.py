@@ -12,8 +12,8 @@ EXTENSION_TOML_DATA = toml.load(os.path.join(EXTENSION_PATH, "config", "extensio
 
 # Minimum dependencies required prior to installation
 INSTALL_REQUIRES = [
-    # NOTE: Add dependencies
     "psutil",
+    "wandb",
 ]
 
 # Installation operation
